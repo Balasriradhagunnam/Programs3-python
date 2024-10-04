@@ -1,0 +1,18 @@
+num = int(input("Enter a value:"))  
+temp = num  
+rev = 0  
+while(num > 0):  
+    dig = num % 10  
+    rev = rev * 10 + dig  
+    num = num // 10  
+if(temp == rev):  
+    print("Given value is a Palindrome")  
+else:  
+    print("Given value is not a Palindrome") 
+
+#output1
+Enter a value:121
+Given value is a Palindrome 
+#output2
+Enter a value:123
+Given value is not a Palindrome
