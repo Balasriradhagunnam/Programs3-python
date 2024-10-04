@@ -1,0 +1,16 @@
+n=int(input("Enter your value "))
+count=0 
+for i in range(1,n+1):
+	if(n%i==0):
+		count+=1
+if count==2:
+	print(n,"Given number is an prime number")
+else:
+	print(n,"Given number is not a prime number")
+
+#output1
+Enter your value 5 
+5 Given number is an prime number
+#output2
+Enter your value 10
+10 Given number is not a prime number
