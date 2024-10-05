@@ -1,0 +1,16 @@
+#usingfoloop
+sum=0
+for i in range(0,11):
+    sum=sum+i
+print("Sum of first 10 Natural numbers is: ",sum)
+
+#usingwhileloop
+sum=0
+i=0
+while i<=10:
+    sum=sum+i
+    i=i+1
+print("Sum of first 10 Natural numbers is: ",sum)
+
+#output
+Sum of first 10 Natural numbers is: 55
